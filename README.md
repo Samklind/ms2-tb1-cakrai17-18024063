@@ -2,6 +2,7 @@ Nama: Samuel Yoel Isliko
 
 NIM: 18024063
 
+
 PERILAKU PACKAGE pkg_18024063:
 
 Package pkg_18024063 berisikan sebuah node "twist_republisher_node" (TRN) yang berfungsi untuk melanjutkan pesan Twist dari node "twist_command_randomizer" (TCR) ke "movement_reader" (MR). Node TRN memiliki sebuah subscriber ke topic 
@@ -22,9 +23,11 @@ CARA MENJALANKAN:
    ros2 run pkg_18024063 autonomous_repub.py
 
 Node berhasil di-execute ketika keluar pesan berikut:
+
 Twist Republisher Node started. Subscribing to /autonomous_vel...
 
 Republishing to /cmd_vel and /cmd_type...
+
 
 Saat pesan Twist berhasil diterima node MR, pesan berikut akan keluar:
 
